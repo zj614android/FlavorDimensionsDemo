@@ -1,0 +1,12 @@
+# 忽略.idea文件夹
+.idea
+# 忽略.gradle文件夹
+.gradle
+# 忽略所有"build"文件夹
+build
+# 忽略所有.iml文件
+*.iml
+# 忽略local.properties
+local.properties
+# 忽略local.properties
+Express.iws
