@@ -67,26 +67,26 @@ android {
 //        }
 //    }
 
-    flavorDimensions("vip", "free")
+    flavorDimensions("money", "channel")
 
     productFlavors {
 
         vip {
-            dimension "vip"
+            dimension "money"
         }
 
         free{
-            dimension "free"
+            dimension "money"
         }
 
         baidu {
             manifestPlaceholders = [CHANNEL: "baidu"]
-            dimension "vip"
+            dimension "channel"
         }
 
         xiaomi {
             manifestPlaceholders = [CHANNEL: "xiaomi"]
-            dimension "free"
+            dimension "channel"
         }
     }
 
